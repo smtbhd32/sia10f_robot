@@ -23,7 +23,28 @@ This repository is created to provide a comprehensive simulation of the SIA10F r
 
 3. **sia10f_gazebo:** This folder provides the Gazebo simulation environment setup. It includes the required files to simulate the SIA10F robot, as well as related models and worlds to enhance the simulation experience.
 
-**Usage:**
-Feel free to explore the contents of this repository. It is designed to help you understand the SIA10F robot's structure and functionality and to assist you in running simulations effectively. Whether you are a beginner or an experienced developer, these resources will provide valuable insights into working with the SIA10F robot.
+Usage:
+To launch the Gazebo simulation of the SIA10F robot, follow these steps:
+
+1. **Source Your ROS Workspace:**
+   - Open a terminal and run:
+     ```
+     source ~/ros_ws/devel/setup.bash
+     ```
+
+2. **Start Gazebo with an Empty World:**
+   - You can start Gazebo by running the following command:
+     ```
+     roslaunch gazebo_ros empty_world.launch
+     ```
+
+3. **Launch the Main Simulation:**
+   - In a new terminal, run the following command to launch the main simulation:
+     ```
+     roslaunch sia10f_gazebo main.launch
+     ```
+
+4. **Interact with the Robot:**
+   - You can control the robot or send commands using the appropriate ROS topics and services. Check the provided launch files and configuration settings for more details.
 
 ---
