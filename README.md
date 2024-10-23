@@ -12,8 +12,9 @@ This repository is created to provide a comprehensive simulation of the SIA10F r
 - **SIA10F Simulation Repository:** Explore the full repository here: [SIA10F Simulation Repository](https://github.com/MASKOR/rosin_sia10)
 - **Motoman GitHub Repository:** Find more resources on the Motoman robots: [Motoman Repository](https://github.com/ros-industrial/motoman)
 - **Tutorial Videos:**
-  - [SIA10F Tutorial Video 1](https://www.youtube.com/watch?v=J6Mu1P6FlxY&list=LL&index=3)
-  - [SIA10F Tutorial Video 2](https://www.youtube.com/watch?v=edHAzfYre7E)
+  - [ROS with Industrial Robots 101+ Programming SIA10F](https://www.youtube.com/watch?v=J6Mu1P6FlxY&list=LL&index=3)
+  - [ROS Q&A 143 - How to Connect MoveIt to the Actual Robot (SIA10F Simulation)](https://www.youtube.com/watch?v=edHAzfYre7E)
+  - [ROSject for Motoman SIA10F](http://www.rosject.io/l/c3384a7/)
 
 **Folder Structure:**
 1. **sia10f_control:** This folder contains all the control configurations and launch files necessary for managing the movements and actions of the SIA10F robot. It allows users to set up control parameters and execute the control logic efficiently.
