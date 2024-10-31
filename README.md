@@ -31,14 +31,8 @@ To launch the Gazebo simulation of the SIA10F robot, follow these steps:
      ```
      source ~/ros_ws/devel/setup.bash
      ```
-
-2. **Start Gazebo with an Empty World:**
-   - You can start Gazebo by running the following command:
-     ```
-     roslaunch gazebo_ros empty_world.launch
-     ```
-
-3. **Launch the Main Simulation:**
+     
+2. **Launch the Main Simulation:**
    - In a new terminal, run the following command to launch the main simulation:
      ```
      roslaunch sia10f_gazebo main.launch
